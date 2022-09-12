@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+
+    <video width="560" poster="Imagem/Gaivota-gerson.png" controls> 
+        <source src="Mídias/gaivota-certa.mp4" type="video/mp4">
+        <source src="Mídias/gaivota-certa.ogv" type="video/m4v">
+        <source src="Mídias/gaivota-certa.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+
+<!--Sempre coloque todos os formatos possíveis igual os áudios, porque em determinado navegador, um formato X pode não pegar. Em cima falou o formato OGG.
+Sempre o navegador tentará carregar os arquivos de cima para baixo.-->
+<!--Use width para alterar o tamanho do player do vídeo na tela.O comando controls para aparecer o play, pause...
+O comando poster para colocar uma foto antes de dar play no vídeo.-->
+<!--Sempre tomar cuidado com o tamanho do vídeo e avisar o cliente que se o site for hospedado dessa maneira, com vários formatos ou um formato muito grande, irá ocorrer uma grande transferências de dados no servidor e ficará mais caro para o cliente manter o site. -->
+
+    <h1>Inserindo vídeos do youtube(Sem ser hospedado no próprio site)</h1>
+   
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/10P_bK-QwEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+
+<!--É muito melhor fazer com que o cliente tenha o vídeo que ele quer no site, no youtube, porque assim nós podemos usar o youtube como hospedagem e não o próprio servidor!! caso o cliente queira, também é possivel usar algum vídeo do vímeo (porém é pago se ele for upar algum vídeo e o algoritimo do youtube é melhor). SEMPRE TOMAR CUIDADO COM OS DIREITOS AUTORAIS!!!  -->
+<!-- Para colocar um vídeo do vimeo é o mesmo jeito que o youtube, é só ir em compartilhar e clicar em incorporar para copiar o código do vídeo(igual ao de cima) e colocalo em seu site hospedando ele no youtube ou vimeo ou em qualquer outro site! -->
+
+
+
+
+</body>
+</html>

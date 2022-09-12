@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+            /* No tamanho das fontes nós temos as fontes com medidas absolutas e medidas relativas!
+            
+            Medidas absolutas são os cm, mm, in, px, pt, pc 
+
+            Medidas relativas são os em, ex, rem, Vw, Vh, %
+            
+            Geralmente para o tamando da fonte nós usamos o EM e o PX, os outros não tem o uso recomendado pela W3school. Prof recomenta usar somente o EM, porque em algumas telas o PX pode dar diferença, mas não há problema algum em usar o PX.
+
+            16px geralmente  = 1em
+            */
+        }
+        h1{
+            /*  font-size: 1em;
+                font-weight: bolder;
+                font-family: 'work Sans';
+                font-style: italic; */
+
+            /* temos quatro "pesos" de fontes, que são: lighter, normal, bold e bolder. Uma mais pesada que a outra. Porém a fonte tem que aceitar esse parâmetro e mais outros.*/
+
+            /* weight é peso, width é largura e height é altura */
+
+            /* Para facilitar, ao invés de usarmos as 4 declarações acima nós usamos uma SHORTHAND FONT
+            
+            A ordem correta para usar a shorthand font é a seguinte: font-style -> font-weight -> font-size -> font-family
+            */
+            font: italic bolder 3m 'work Sans', sans-serif;
+        }
+
+
+    </style>
+
+
+
+
+
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem, accusamus nesciunt incidunt, aspernatur veniam quo quis nobis sapiente necessitatibus tempora soluta numquam tempore temporibus. Tenetur quo nihil temporibus ratione sit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit nulla aliquid temporibus odio quaerat eligendi doloribus harum facilis qui, suscipit at aut omnis ipsum, facere obcaecati deserunt sapiente quisquam animi.</p>
+   
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro delectus, explicabo, voluptatem labore aliquid culpa saepe obcaecati perferendis ad quia nesciunt dolorum asperiores nostrum dolorem amet in nam quas eos!</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consequatur magnam repellendus vitae quaerat. Non, nam? Ut aspernatur eius enim nobis eligendi ex cupiditate laborum. Libero labore perferendis similique optio.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

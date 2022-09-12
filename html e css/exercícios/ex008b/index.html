@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    
+<h1>Outras formatações</h1>
+<h2>Código-fonte / Pré-formatação</h2>
+<p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+<p>Ele deixa a fonte monoespaçada, com os mesmos espaços entre ela.</p>
+
+
+<pre>
+    <code>
+    num = int(imput('digite um número'))
+    if num % 2 == 0
+        print(f'0 número {num} é PAR')
+    else:
+        print(f'0 número {num} é IMPAR')
+    print('Fim do programa')
+    </code>
+</pre>
+
+    <p>Se usar somente o CODE, ele irá fazer com que o código perca a identação, ele irá parecer na tela como se fosse um texto normal. Para resolver isso, nós devemos envelopar a tag CODE, dentro da tag PRE, que irá organizar o código/texto. </p>
+
+    <p>SHIFT + TAB com o código selecionado quebra linha dele para onde você quiser</p>
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p>
+    <p>Use a tag Q para fazer uma citação simples, é melhor do que somente colocar as aspas no texto, a tag da sentido ao conteúdo citado</p>
+
+    <h2>Citações Completas</h2>
+    <p>Segundo Maurício Samy Silva, no seu livro HTML e CSS:</p>
+    <blockquote cite="https://books.google.com.br/books?id=2iPYCQAAQBAJ&printsec=frontcover&dq=html&hl=pt-PT&sa=X&redir_esc=y#v=onepage&q&f=false">
+        Hipertexto é todo texto inserido em um documento para web e que tem como principal característica a possibilidade de se interligar a outros documentos da web com uso dos nosos já conhecidos links, presentes nas páginas dos sites que estamos acostumados a visitar. Então, todo o conteúdo textual que você vê em uma página de um site é um hipertexto, assim como imagens, vídeos, gráficos, sons e conteúdos não textuais em geral são chamados de hipermídia.
+    </blockquote>
+    <p>A sitação usando BLOCKQUOTE, é usada para uma citação que não ficará em uma linha só, ela será usada para citações maiores no site ficará disposta de uma maneira diversa a citação simples. Podemos usar ainda o CITE dentro da referida tag para dar a parte interna do site, os devidos direitos autorais para o criador da citação que você usou.</p>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando</p>
+    <p>É usado para mostrar o significado da sigla ao passar o mouse em cima da mesma. Dá para alterar o visual no css também.</p>
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <p>é usado para inverter a maneira que a frase foi escrita</p>
+
+
+    
+
+</body>
+</html>

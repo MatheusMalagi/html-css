@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou cimplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <!--Sempre colocque a tag SOURCE acima da tag IMG. A IMG sempre deve ser a base, ficar em baixo para que funcione corretamente. Basicamente a ordem das tem que ser:
+        <PICTURE>
+        <SOURCE>
+        <IMG>      
+        
+        A tag SOURCE deve ser MEDIA TYPE
+        Tomar muito cuidado com a ordem das fotos, porque dependendo da ordem, não dará certo -->
+
+    <!--Sempre é bom tomar cuidado com as fotos e pensar no usuário ao usá-las!! Se uma pessoa entrar e logo sair, o google irá diminuir a indicação do seu site as pessoas.-->
+
+    <h1>Reproduzindo Áudio</h1>
+        <p>Vamos aprender a reproduzir audios em HTML5.</p>
+        
+        <!-- <audio src="Música NCS/X2Download.com - Tobu - Hope [NCS Release] (128 kbps).mp3" controls autoplay></audio> -->
+
+        <!--100% de compatibilidade com os navegadores: MP3,WAV e OGG - porém ainda existe a chance de certos comandos não funcionarem mesmo com esses formatos (igual em cima que não funcionou o autoplay)-->
+
+        <audio preload="metadata"  controls loop>
+            <source src="Música NCS/X2Download.com - Tobu - Hope [NCS Release] (128 kbps).mp3" type="audio/mpeg">
+
+            <source src="Música NCS/X2Download.com - Tobu - Hope [NCS Release] (128 kbps).mp3" type="audio/ogg">
+
+            <source src="Música NCS/X2Download.com - Tobu - Hope [NCS Release] (128 kbps).mp3" type="audio/wav">
+        </audio>
+        <p>Infelizmente seu navegador não consegue reproduzir áudio caso os formatos acima não sejam tocados de maneira alguma.</p>
+
+        <!--Olhar no material mais informações sobre as opções adicionais como autoplay, loop, controls e outras.-->
+
+        <h1></h1>
+
+
+
+
+
+</body>
+</html>
