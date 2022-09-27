@@ -1,12 +1,41 @@
 @charset "UTF-8";
 
 header{
-    background-color: black;
-    
+    background-image:linear-gradient(to bottom, rgba(94, 93, 93, 0.87), rgb(8, 7, 7));
+    padding: 20px;
+    margin: -8px;
 }
-
-.cabecalho{
+.cabeçalho{
     color: white;
     text-align: center;
 }
-
+h1{
+    font-size: 4em;
+    margin-bottom: auto;
+}
+#estrofe01{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    line-height: 80px;
+}
+#estrofe02{
+    color: white;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    padding-left: 30px;
+    line-height: 80px;
+    
+    
+}
+#fundo01{
+    background-image: url(imagens/background001.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    margin: -10px;
+}
