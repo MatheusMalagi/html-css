@@ -8,6 +8,7 @@ header{
 .cabeçalho{
     color: white;
     text-align: center;
+    text-decoration: none;
 }
 h1{
     font-size: 4em;
@@ -18,17 +19,15 @@ h1{
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 30px;
-    line-height: 80px;
+    line-height: 70px;
 }
 #estrofe02{
     color: white;
     font-size: 40px;
-    padding-top: 90px;
-    padding-bottom: 90px;
+    padding-top: 60px;
+    padding-bottom: 40px;
     padding-left: 30px;
-    line-height: 80px;
-    
-    
+    line-height: 70px; 
 }
 #fundo01{
     background-image: url(imagens/background001.jpg);
@@ -36,6 +35,53 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 80vh;
+    height: 70vh;
     margin: -10px;
 }
+#estrofe03{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    line-height: 70px;
+}
+#estrofe04{
+    color: white;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    line-height: 70px;
+}
+#fundo02{
+    background-image: url(imagens/background002.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+    margin: -10px;
+}
+#estrofe05{
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    line-height: 70px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.651), black);
+    padding: 20px;
+    margin: -7px;
+}
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+#github:hover{
+    background-color: rgba(255, 255, 255, 0.329);
+ }
