@@ -1,81 +1,86 @@
 @charset "UTF-8";
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
 header{
-    background-image:linear-gradient(to bottom, rgba(94, 93, 93, 0.87), rgb(8, 7, 7));
-    padding: 20px;
-    margin: -8px;
-}
-.cabeçalho{
-    color: white;
+    background-image:linear-gradient(to bottom, rgba(94, 93, 93, 0.87), rgb(8, 7, 7));  
     text-align: center;
-    text-decoration: none;
 }
-h1{
-    font-size: 4em;
-    margin-bottom: auto;
-}
-#estrofe01{
-    font-size: 40px;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 30px;
-    line-height: 70px;
-}
-#estrofe02{
+header > h1{
     color: white;
-    font-size: 40px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-    line-height: 70px; 
+    font-variant: small-caps;
+    font-size: 4em;
+    padding-top: 50px;
 }
+header > p{
+    color: white;
+    padding-bottom: 50px;
+}
+#referencia{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+.est-normal{
+    background-color: white;
+    color: black;      
+    font-size: 2em;
+}
+.est-imagem{
+    color: white;  
+    font-size: 2em;
+}
+.est-imagem > p{
+    width: 470px;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+
+
+
+
+
+
+
 #fundo01{
     background-image: url(imagens/background001.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 70vh;
-    margin: -10px;
+    height: 70vh;  
 }
-#estrofe03{
-    font-size: 40px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-    line-height: 70px;
-}
-#estrofe04{
-    color: white;
-    font-size: 40px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-    line-height: 70px;
-}
+
 #fundo02{
     background-image: url(imagens/background002.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 70vh;
-    margin: -10px;
+    height: 70vh; 
 }
-#estrofe05{
-    font-size: 40px;
-    padding-top: 60px;
-    padding-bottom: 40px;
-    padding-left: 30px;
-    line-height: 70px;
-}
+
+
+
+
+
 footer{
     background-color: black;
     color: white;
     text-align: center;
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.651), black);
-    padding: 20px;
-    margin: -7px;
+    padding: 20px;    
 }
 footer > a {
     color: white;
@@ -83,5 +88,8 @@ footer > a {
 }
 
 #github:hover{
-    background-color: rgba(255, 255, 255, 0.329);
+    text-decoration: underline;
  }
+#referencia:hover{
+    text-decoration: underline;
+}
